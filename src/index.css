@@ -8,6 +8,24 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: akagi-pro,source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  color: #222;
+  font-family: akagi-pro;
+
+font-weight: 700;
+
+font-style: normal;
+
+font-size: 20px;
+
+line-height: 1.2em;
+
+letter-spacing: .04em;
+
+text-transform: uppercase;
+}
+
