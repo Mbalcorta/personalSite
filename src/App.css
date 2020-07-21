@@ -48,9 +48,18 @@
   text-transform: none;
   color: #111;
   max-width: 50%;
+  padding: 40px;
 }
 
 img {
   width: 100%;
   height: 300px;
+}
+
+.cover {
+  background-color: #17152b;
+}
+
+h1 {
+  padding-top: 40px;
 }
