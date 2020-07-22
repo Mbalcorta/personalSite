@@ -52,6 +52,7 @@ function App() {
           <Column flexGrow={1}>
           <a href="https://oakkidsplay.com/" target="_blank"><img src="https://res.cloudinary.com/misterrattail/image/upload/c_scale,h_850,w_1460/v1562692910/Screen_Shot_2019-07-09_at_10.20.32_AM_kvvdvd.png"/></a>          </Column>
         </Row>
+
     </div> 
   );
 }
