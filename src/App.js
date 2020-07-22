@@ -33,7 +33,7 @@ function App() {
               </div>
               <div class="overlay">
                 <div class="overlay-content"> 
-                  blocktrumpswarcabinet.com Update content for single page site that connects user data in CMS, connects users via API to directly call their senator and connects to a feedback page where the API sends the feedback via email to demand progress employees. n
+                  blocktrumpswarcabinet.com Update content for single page site that connects user data in CMS, connects users via API to directly call their senator and connects to a feedback page where the API sends the feedback via email to demand progress employees.
                 </div>
               </div> 
             </a>

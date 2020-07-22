@@ -125,6 +125,7 @@ h3.responsive-title {
 .overlay-content {
   font-size: 1.8rem;
   font-weight: bold;
+  margin: 80px;
 }
 
 span {
