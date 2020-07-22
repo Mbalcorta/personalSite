@@ -126,3 +126,32 @@ h3.responsive-title {
   font-size: 1.8rem;
   font-weight: bold;
 }
+
+span {
+  color: black
+}
+
+.resume {
+  width: 500px;
+  height: 550px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.envelope {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px
+}
+
+.mail {
+  display:flex;
+}
+
+.contact span {
+  padding: 0 40px 40px 0;
+  
+}

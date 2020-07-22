@@ -7,8 +7,14 @@ function App() {
     <div className="App">
       <header>
           <Row vertical='center'>
+          <Column flexGrow={1} horizontal='center'>
+              <a href="contact"><span> Contact </span></a>
+            </Column>
             <Column flexGrow={3} horizontal='center'>
               <h1> Mateo Balcorta </h1>
+            </Column>
+            <Column flexGrow={1} horizontal='center'>
+            <a href="#resume"><span> Resume </span></a>
             </Column>
           </Row>
           <Row vertical='center'>
@@ -54,7 +60,7 @@ function App() {
               </div>
               <div class="overlay">
                 <div class="overlay-content"> 
-                demandprogresseducationfund.org Implemented single page web site.
+                  demandprogresseducationfund.org Implemented single page web site.
                 </div>
               </div> 
             </a>
@@ -66,9 +72,9 @@ function App() {
               </div>
               <div class="overlay">
                   <div class="overlay-content"> 
-stopthefcc.com
-Update content for single page micosite with tipe.io API to enable non technical folks to update text content. User information is sent via API I produced which runs a headless browser to fill out FCC comment form with a generic comment.
-</div>
+                    stopthefcc.com
+                    Update content for single page micosite with tipe.io API to enable non technical folks to update text content. User information is sent via API I produced which runs a headless browser to fill out FCC comment form with a generic comment.
+                  </div>
               </div> 
             </a>
           </Column>
@@ -86,7 +92,6 @@ Update content for single page micosite with tipe.io API to enable non technical
               </div> 
             </a>
           </Column>
-       
           <Column flexGrow={1}>
             <a className='clickable-container' href="https://mateospetcare.github.io/" target="_blank">
               <div className="single-news"> 
@@ -121,18 +126,33 @@ Update content for single page micosite with tipe.io API to enable non technical
             </a>          
           </Column>
         </Row>
-
+        <h1>Resume</h1>
+        <Row >
+        <Column flexGrow={1}>
+        </Column>
+          <Column >
+            <div id='resume' className='resume'>
+              <img src="https://res.cloudinary.com/misterrattail/image/upload/v1595389255/Screen_Shot_2020-07-21_at_8.14.44_PM_aujqn0.png"/>
+            </div>
+          </Column>
+        <Column flexGrow={1}>
+        </Column>
+        </Row>
+        <h1>Contact</h1>
+        <Row className='contact' justifyContent='center'>
+            <a className='mail' href="https://www.linkedin.com/in/mateo-balcorta-169202114/" target='_blank'>
+              <span>LinkedIn</span>
+            </a>
+            <a className='mail' href="mailto:mateo.balcorta@gmail.com">
+              <img className="envelope" src="http://35wmrr2htzue38ph9kt270l1711.wpengine.netdna-cdn.com/wp-content/uploads/2015/11/email-2-icon.png"/>
+              <span>Mateo.balcorta@gmail.com</span>
+            </a>
+            <a className='mail' href="https://github.com/mbalcorta" target='_blank'>
+              <span>GitHub</span>
+            </a>
+        </Row>
     </div> 
   );
 }
 
 export default App;
-{/* <figure class="col-sm-6">
-          <p>Tribute Page</p>
-          <a href="http://codepen.io/Mrpocketpet/full/XNwxNX/" target="_blank"><img src="http://res.cloudinary.com/misterrattail/image/upload/v1487820156/Screen_Shot_2017-02-22_at_7.13.55_PM_p0df9f.png"></a>
-    </figure>
-     <figure class="col-sm-6 pet">
-          <p>Pet Sitting Site</p>
-          <a href="https://mateospetcare.github.io/" target="_blank"><img src="http://res.cloudinary.com/misterrattail/image/upload/v1487820203/Screen_Shot_2017-02-22_at_7.22.59_PM_qjtbq4.png"></a>
-    </figure>
-      <figure class="col-sm-6"></figure> */}
