@@ -132,9 +132,9 @@ span {
   color: black
 }
 
-.resume {
-  width: 500px;
-  height: 550px;
+#resume {
+  width: 800px;
+  height: 1000px;
 }
 
 img {
@@ -155,4 +155,15 @@ img {
 .contact span {
   padding: 0 40px 40px 0;
   
+}
+
+#contact {
+  display: flex; 
+}
+
+.face img{
+  margin: 30px;
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
 }

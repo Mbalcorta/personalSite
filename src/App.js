@@ -8,7 +8,7 @@ function App() {
       <header>
           <Row vertical='center'>
           <Column flexGrow={1} horizontal='center'>
-              <a href="contact"><span> Contact </span></a>
+              <a href="#contact"><span> Contact </span></a>
             </Column>
             <Column flexGrow={3} horizontal='center'>
               <h1> Mateo Balcorta </h1>
@@ -16,6 +16,13 @@ function App() {
             <Column flexGrow={1} horizontal='center'>
             <a href="#resume"><span> Resume </span></a>
             </Column>
+          </Row>
+          <Row vertical='center'>
+              <Column className="face" flexGrow={1} horizontal='center'>
+       
+                <img src="https://avatars0.githubusercontent.com/u/29382584?s=460&u=76cb6e5a69407be9dc95e68fa64e3a66a42d72c7&v=4"/>
+              
+              </Column>
           </Row>
           <Row vertical='center'>
             <Column flexGrow={1} horizontal='center'>
@@ -131,7 +138,7 @@ function App() {
         <Column flexGrow={1}>
         </Column>
           <Column >
-            <div id='resume' className='resume'>
+            <div id='resume'>
               <img src="https://res.cloudinary.com/misterrattail/image/upload/v1595389255/Screen_Shot_2020-07-21_at_8.14.44_PM_aujqn0.png"/>
             </div>
           </Column>
@@ -140,6 +147,7 @@ function App() {
         </Row>
         <h1>Contact</h1>
         <Row className='contact' justifyContent='center'>
+          <div id='contact'>
             <a className='mail' href="https://www.linkedin.com/in/mateo-balcorta-169202114/" target='_blank'>
               <span>LinkedIn</span>
             </a>
@@ -150,6 +158,7 @@ function App() {
             <a className='mail' href="https://github.com/mbalcorta" target='_blank'>
               <span>GitHub</span>
             </a>
+          </div>
         </Row>
     </div> 
   );
